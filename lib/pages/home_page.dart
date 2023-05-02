@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.orange,
       ),
       body: Container(
-        padding: EdgeInsets.all(20),
+        padding: const EdgeInsets.all(20),
         child: Column(
           children: [
             //#header
@@ -78,7 +78,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     const Text(
                       "Lifestyle sale",
@@ -102,6 +102,7 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ),
                     ),
+                    const SizedBox(height: 20),
                   ],
                 ),
               ),
